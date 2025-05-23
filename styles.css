@@ -1,0 +1,49 @@
+@font-face{
+font-family: 'RedHatText';
+src: url('assets/fonts/static/RedHatText-Bold.ttf') format('ttf');
+font-weight: normal;
+font-style: normal;
+}
+
+body {
+    background-color: #fcf8f5;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    color: rgb(134, 134, 226);
+    text-align: center;
+   
+}
+.container{
+    padding-left: 10%;
+   display: grid;
+   justify-content: space-around;
+   column-gap: 20px;
+   row-gap: 15px;
+   grid-template-columns: 1fr 1fr 1fr ;
+   grid-template-rows: auto;
+}
+
+.ImgCart{
+    border-radius: 3%;
+    height: 200px;
+    width: 200px;
+}
+.card{
+    justify-self: center;
+
+}
+
+button{
+border-radius: 10%;
+background-color: #fffffe;
+transform: translateY(-20px);
+align-items: center;
+display:flex;
+text-align: center;
+border color: #988b8b;
+}
+ main{
+    display: flex;
+ }
