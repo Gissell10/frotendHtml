@@ -31,18 +31,16 @@ h1 {
     width: 200px;
 }
 .card{
-    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    
 
 }
 
 button{
 border-radius: 10%;
 background-color: #fffffe;
-transform: translateY(-20px);
-align-items: center;
-display:flex;
-text-align: center;
-border color: #988b8b;
+border-color: #988b8b;
 }
  main{
     display: flex;
