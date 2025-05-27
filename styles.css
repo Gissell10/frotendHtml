@@ -33,15 +33,27 @@ h1 {
 .card{
     display: flex;
     flex-direction: column;
-    
+    align-items: flex-start;
 
 }
 
 button{
-border-radius: 10%;
+border-radius: 20%;
 background-color: #fffffe;
 border-color: #988b8b;
+display: flex;
+justify-content: center;
+padding: 5px 15px;
 }
- main{
-    display: flex;
- }
+
+.btn{
+    align-self: center;
+}
+.cart-icono{
+    height: 14px;
+    padding-right: 2px;
+}
+p{
+    color: #c73b0f;
+    
+}
