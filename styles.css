@@ -16,12 +16,12 @@ h1 {
    
 }
 .container{
-    padding-left: 10%;
+   padding-left: 10%;
    display: grid;
    justify-content: space-around;
    column-gap: 20px;
    row-gap: 15px;
-   grid-template-columns: 1fr 1fr 1fr ;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
    grid-template-rows: auto;
 }
 
@@ -31,12 +31,15 @@ h1 {
     width: 200px;
 }
 .card{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
+    display: grid;
+    gap: 5px;
+    justify-items: start;
 }
 
+.cart{
+    grid-column-start: 4;
+
+}
 button{
 border-radius: 20%;
 background-color: #fffffe;
@@ -47,7 +50,7 @@ padding: 5px 15px;
 }
 
 .btn{
-    align-self: center;
+    justify-self: start;
 }
 .cart-icono{
     height: 14px;
