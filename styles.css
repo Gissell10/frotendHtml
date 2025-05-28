@@ -1,12 +1,26 @@
 @font-face{
 font-family: 'RedHatText';
 src: url('assets/fonts/static/RedHatText-Bold.ttf') format('ttf');
-font-weight: normal;
-font-style: normal;
+font-weight: bold;
+font-style: bold;
 }
 
+@font-face{
+font-family: 'RedHatText';
+src: url('assets/fonts/static/RedHatText-Regular.ttf') format('ttf');
+font-weight: Regular;
+font-style: Regular;
+}
+
+@font-face{
+font-family: 'RedHatText';
+src: url('assets/fonts/static/RedHatText-semiBold.ttf') format('ttf');
+font-weight: semiBold;
+font-style: semiBold;
+}     
+
 * {
-    background-color: #fcf8f5;
+    
     padding: 0;
     margin: 0;
 }
@@ -41,9 +55,9 @@ h1 {
 
 }
 button{
-border-radius: 20%;
+border-radius: 9999em;
 background-color: #fffffe;
-border-color: #988b8b;
+border: 1px solid #b0a7a8;
 display: flex;
 justify-content: center;
 padding: 5px 15px;
@@ -51,6 +65,9 @@ padding: 5px 15px;
 
 .btn{
     justify-self: start;
+    transform: translateY(-23px);
+    padding-left: 40px;
+
 }
 .cart-icono{
     height: 14px;
@@ -58,5 +75,5 @@ padding: 5px 15px;
 }
 p{
     color: #c73b0f;
-    
+     
 }
