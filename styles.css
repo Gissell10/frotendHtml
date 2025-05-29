@@ -1,19 +1,19 @@
 @font-face{
-font-family: 'RedHatText';
+font-family: 'RedHatText-Bold';
 src: url('assets/fonts/static/RedHatText-Bold.ttf') format('ttf');
 font-weight: bold;
 font-style: bold;
 }
 
 @font-face{
-font-family: 'RedHatText';
+font-family: 'RedHatText-Regular';
 src: url('assets/fonts/static/RedHatText-Regular.ttf') format('ttf');
 font-weight: Regular;
 font-style: Regular;
 }
 
 @font-face{
-font-family: 'RedHatText';
+font-family: 'RedHatText-semibold';
 src: url('assets/fonts/static/RedHatText-semiBold.ttf') format('ttf');
 font-weight: semiBold;
 font-style: semiBold;
@@ -27,7 +27,7 @@ font-style: semiBold;
 h1 {
     color: rgb(134, 134, 226);
     text-align: center;
-   
+    font-family: 'Franklin Gothic Medium'
 }
 .container{
    padding-left: 10%;
@@ -74,6 +74,10 @@ padding: 5px 15px;
     padding-right: 2px;
 }
 p{
-    color: #c73b0f;
-     
+    color: #b0a7a8;
+    font-family: 'RedHatText-Regular';
+}
+.row{
+    display: grid;
+    gap: 20px;
 }
